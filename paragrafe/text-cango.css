@@ -15,6 +15,52 @@
 .titlul2{
   font-style: italic;
 }
+.cen{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+.cen1{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 21%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+.cen2{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 21%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  margin-top: 7%;
+}
+.cen3{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 21%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  margin-bottom: -30%;
+}
+.cen4{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 21%;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    margin-bottom: 20%;
+    margin-top: 7%;
+  }
+.capsula{
+  margin-top: -50%;
+  display: grid;
+  margin-top: -10%;
+  grid-template-rows: 1fr 1fr;
+    grid-gap: 5%;
+}
 a{
   display: inline-block;
 }
@@ -23,7 +69,7 @@ p{
 }
 .big-box{
   padding-bottom: 100px;
-  margin-left: 150px;
+  margin-left: 4%;
   margin-right: 200px;
 }
 .titlul{
@@ -41,23 +87,29 @@ p{
   width: 500px;
 }
 .graf{
+  margin-top: 8%;
   height: 500px;
   margin-bottom: 60px;
+  margin-bottom: -30%;
 }
 .info{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
  
 }
 .text{
   font-size: 20px;
 }
+.text9{
+  font-size: 20px;
+  margin-bottom: -90%;
+}
 .line{
  margin-left: 25px;
 }
 .poza-Boma{
-  margin-top: 15px;
-  margin-left: 90px;
+  margin-left: 3%;
+  margin-top: -8%;
   margin-bottom: 0px;
   width:650px;
   height: 550px;
@@ -72,6 +124,7 @@ p{
   height: 600px;
   width: 500px;
   margin-left: 60px;
+  margin-top:-0.2%;
 }
 .kids{
   width: 600px;
@@ -92,6 +145,17 @@ p{
   font-size: 20px;
   margin-right: 60px;
 }
+.text33{
+  font-size: 20px;
+  margin-right: 60px;
+  margin-bottom: -50%;
+}
+.text333{
+  font-size: 20px;
+  margin-right: 60px;
+  margin-bottom: -49%;
+  margin-top: -7%;
+}
 .text4{
   font-size: 20px;
   line-height: 36px;
@@ -105,9 +169,8 @@ p{
   font-size: 18px;
   border-radius: 6;
   border: none;
-  margin-bottom: 90px;
-  margin-left: 400px;
-  margin-right: 100px;
+  margin-left: 38%;
+  margin-bottom: 10%;
   cursor: pointer;
   transition: opacity 0.15s;
   background-color: white;
@@ -125,17 +188,15 @@ p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:red;
   font-size: 18px;
-  border-radius: 6;
+  margin-left: 35%;
+  margin-bottom: 10%;
   border: none;
-  margin-bottom: 90px;
-  margin-left: 420px;
-  margin-right: 280px;
   cursor: pointer;
   transition: opacity 0.15s;
   background-color: white;
 }
 .para1:hover{
-  opacity: 0.4;
+  opacity: 0.3;
 }
 .para2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -143,17 +204,32 @@ p{
   font-size: 18px;
   border-radius: 6;
   border: none;
-  margin-bottom: 90px;
-  align-items: center;
-  margin-left: 450px;
-  margin-right: 100px;
-  padding-right: px;
-  padding-left: 60px;
+  margin-bottom: 15%;
+  justify-items: end;
+  margin-left: 46%;
+  margin-right: 15%;
   cursor: pointer;
   transition: opacity 0.15s;
   background-color: white;
 }
 .para2:hover{
+  opacity: 0.4;
+}
+.para21{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:red;
+  font-size: 18px;
+  border-radius: 6;
+  border: none;
+  margin-bottom: 15%;
+  justify-items: end;
+  margin-left: 48%;
+  margin-right: 15%;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  background-color: white;
+}
+.para21:hover{
   opacity: 0.4;
 }
 .kids-gun{
@@ -169,17 +245,30 @@ p{
   font-size: 18px;
   border-radius: 6;
   border: none;
-  margin-bottom: 90px;
   align-items: center;
-  margin-left: 480px;
-  margin-right: 100px;
-  padding-right: px;
-  padding-left: 60px;
+  margin-left: 50%;
+  margin-bottom: 12%;
   cursor: pointer;
   transition: opacity 0.15s;
   background-color: white;
 }
 .para3:hover{
+  opacity: 0.4;
+}
+.para31{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:red;
+  font-size: 18px;
+  border-radius: 6;
+  border: none;
+  align-items: center;
+  margin-left: 53%;
+  margin-bottom: 12%;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  background-color: white;
+}
+.para31:hover{
   opacity: 0.4;
 }
 .tit2{
@@ -191,12 +280,9 @@ p{
   font-size: 18px;
   border-radius: 6;
   border: none;
-  margin-bottom: 90px;
   align-items: center;
-  margin-left: 470px;
-  margin-right: 100px;
-  padding-right: px;
-  padding-left: 60px;
+  margin-left: 49%;
+  margin-bottom: 16%;
   cursor: pointer;
   transition: opacity 0.15s;
   background-color: white;
@@ -212,9 +298,9 @@ p{
   margin-top: 50px;
 }
 .arti{
-  margin-left: 300px;
+  margin-left: 30%;
   width: 600px;
-  margin-top: 90px;
+  margin-top: 7%;
   margin-right: 500px;
 }
 .arm{
@@ -240,10 +326,29 @@ p{
 .para5:hover{
   opacity: 0.4;
 }
+.para55{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:red;
+  font-size: 18px;
+  border-radius: 6;
+  border: none;
+  margin-bottom: 90px;
+  align-items: center;
+  margin-left: 46%;
+  margin-right: 100px;
+  padding-right: px;
+  padding-left: 60px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  background-color: white;
+}
+.para55:hover{
+  opacity: 0.4;
+}
 .kids2{
   width: 600px;
-  height: 700px;
-  margin-left: 40px;
+  height: 600px;
+  margin-left: 3%;
   margin-top: 60px;
   object-fit: cover;
 }
