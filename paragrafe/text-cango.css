@@ -45,14 +45,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   margin-bottom: -30%;
 }
-.cen3{
-  display: grid;
-  max-width: 1200px;
-  margin: 0 auto;
-  grid-gap: 21%;
-  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  margin-bottom: -30%;
-}
 .cen4{
     display: grid;
     max-width: 1200px;
@@ -98,11 +90,15 @@ p{
   width: 300px;
   margin-left: 60px;
   margin-top: 30px;
+  margin-bottom: -90%;
   margin-bottom: 90px;
 }
 .dia-congo{
   height: 650px;
   width: 500px;
+}
+.op{
+  margin-top: -60%;
 }
 .graf{
   height: 500px;
@@ -120,9 +116,11 @@ p{
 }
 .text{
   font-size: 20px;
+  text-align:justify;
 }
 .text9{
   font-size: 20px;
+  text-align: justify;
   margin-bottom: -90%;
 }
 .line{
@@ -162,14 +160,17 @@ p{
 
 .text2{
   font-size: 20px;
+  text-align:justify;
   line-height: 21px;
 }
 .text3{
   font-size: 20px;
   margin-right: 60px;
+  text-align: justify;
 }
 .text33{
   font-size: 20px;
+  text-align: justify;
   margin-right: 60px;
   margin-bottom: -50%;
 }
@@ -177,18 +178,27 @@ p{
   font-size: 20px;
   margin-right: 60px;
   margin-bottom: -49%;
+  text-align: justify;
   margin-top: -7%;
 }
 .text3333{
   font-size: 20px;
+  text-align: justify;
   margin-right: 60px;
   margin-top: 90%;
   margin-bottom: 300px;
 }
 .text4{
   font-size: 20px;
+  text-align: justify;
   line-height: 36px;
 }
+.text44{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 36px;
+}
+
 .spat{
   margin-top: 90px;
 }
@@ -327,10 +337,13 @@ p{
   margin-top: 50px;
 }
 .arti{
-  margin-left: 30%;
-  width: 600px;
-  margin-top: 7%;
-  margin-right: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.op{
+  margin-top: 10%;
 }
 .arm{
   height: 500px;
@@ -386,7 +399,7 @@ p{
 }
 @media only screen and (min-width: 1179px) {
   .slaves{
-    margin-left: 50%;
+    margin-bottom: -80%;
     margin-bottom: -30%;
   }
   .cen5{
@@ -462,6 +475,32 @@ p{
       margin-bottom: 30%;
       margin-left: 100%;
     }
+    .text4{
+      font-size: 16px;
+      line-height: 1.4; 
+    }
+    .arti{
+      height: 900px;
+      width:700px ;
+    }
+    .text44 {
+      font-size: 16px;
+      line-height: 1.4;
+      margin-bottom: 90%;
+      margin-top: -40%;
+      margin-right: 20%;
+  }
+
+  .big-box {
+      padding: 10px;
+  }
+  .Edmund{
+    margin-top: -87%;
+    margin-bottom: -120%;
+  }
+  .op{
+    margin-top: 50%;
+  }
     .kids-gun{
       margin-bottom: -30%;
     }
@@ -478,4 +517,32 @@ p{
     .kids{
       margin-top: 90%;
     }
+    .text4{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .text33{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .text3{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .text{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .text2{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .text9{
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    .poza-Boma{
+      margin-top: 5px;
+    }
   }
+  
